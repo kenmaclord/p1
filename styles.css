@@ -4,15 +4,16 @@ html, body{
     padding: 0; 
 }
 
-h1{
-    color: red;
+a{
+    color: black;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 5px;
+    padding-right: 10px;
+    margin-bottom: 10px;
 }
 
 header .nav{
@@ -22,3 +23,84 @@ header .nav{
 header .nav .accueil{
     margin-right: 10px;
 }
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    height: 524px;    
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/backgroung_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.logo_bck{
+    margin: 0 auto;
+    width: 160px;
+}
+
+.logo_bck img{
+    width: 100%;
+}
+
+.brand{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+}
+
+.presentation{
+    max-width: 550px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.highlights{
+    display: flex;
+    margin-top: 70px;
+    max-width: 550px;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlights .name{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.highlights .description{
+    font-size: 12px;
+    text-align: center;
+}
+
+.strategie{
+    margin: 0 20px;
+}
+
+
+.testimonial{
+    margin-top: 70px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.testimonial .temoin{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
