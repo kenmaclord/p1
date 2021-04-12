@@ -4,6 +4,11 @@ html, body{
     padding: 0; 
 }
 
+:root{
+    --dark: #5b359d;
+    --light: #bdaed8;
+}
+
 a{
     color: black;
 }
@@ -13,7 +18,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-right: 10px;
-    margin-bottom: 10px;
 }
 
 header .nav{
@@ -96,6 +100,7 @@ header .nav .accueil{
     margin-top: 70px;
     max-width: 450px;
     text-align: center;
+    margin-bottom: 10px;;
 }
 
 .testimonial .temoin{
@@ -103,4 +108,54 @@ header .nav .accueil{
     font-size: 12px;
 }
 
+
+footer{
+    background-color: var(--dark);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer .base{
+    font-size: 10px;
+}
+
+footer .social{
+    display: flex;
+    color: var(--light);
+    width: 265px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+footer .social div{
+    font-size: 24px;
+}
+
+.themes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.theme .titre{
+    color: var(--light);
+    margin-bottom: 5px;
+}
+
+.theme .contenu {
+    color: white;
+}
+
+.theme a{
+    color: white;
+}
+
+ul{
+    margin-top: 0;
+}
 
